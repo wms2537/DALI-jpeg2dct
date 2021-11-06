@@ -46,7 +46,7 @@ def mxnet_reader_pipeline(path, num_gpus):
 
 if __name__ == '__main__':
     from tqdm import tqdm
-    db_folder = '/mnt/swmeng/DCTNet_Mxnet/data/'
+    db_folder = '/mnt/swmeng/imagenet/'
     N = 1             # number of GPUs
     BATCH_SIZE = 128  # batch size per GPU
     label_range = (0, 999)
